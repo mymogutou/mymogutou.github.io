@@ -44,15 +44,15 @@
 <body>
     <canvas id='cavs' style='position:fixed; z-index:-1;'></canvas>
     <div class="content">
-        <h2>Hello,我的蘑菇头</h2>
-        <h2>比心</h2>
+        <h1>Hello,我的蘑菇头:</h1>
+        <h1>比心</h1>
         <div class="timers">
             <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
         </div>
        
     </div>
     <script>function timer() {
-            var start = new Date(2018, 07, 27); // 2015.7.2
+            var start = new Date(2018, 06, 28); // 2015.7.2
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
